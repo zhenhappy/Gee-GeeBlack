@@ -50,7 +50,7 @@ html::-webkit-scrollbar{display:none!important;}
 3level
 */
 .level-box .level-on3 {
-  background: url("/turbo-static/turbo/v2/img/leve-line3.png") !important;
+  background: url("/turbo-static/turbo/v2/img/admin_web/leve-line3.png") !important;
 }
 .dasboard .panel {
   background: hsla(225,14%,6%,0.3)!important;
