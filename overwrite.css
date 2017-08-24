@@ -49,9 +49,42 @@ html::-webkit-scrollbar{display:none!important;}
 /*
 3level
 */
-.level-box .level-on3 {
+.level-box .level-on {
   background: url("/turbo-static/turbo/v2/img/admin_web/leve-line3.png") !important;
+  background-position: 0 0 !important;
+  background-size: 135px 27px !important;
 }
+
+.level-box .level-1 .text-tip {
+    left: 15px !important;
+}
+.level-box .level-1 .level-line {
+    width: 23% !important;
+}
+.level-box .level-1 .level-on {
+    width: 23% !important;
+}
+
+.level-box .level-2 .text-tip {
+    left: 51px !important;
+}
+.level-box .level-2 .level-line {
+    width: 48% !important;
+}
+.level-box .level-2 .level-on {
+    width: 48% !important;
+}
+
+.level-box .level-3 .text-tip {
+    left: 81px !important;
+}
+.level-box .level-3 .level-line {
+    width: 72% !important;
+}
+.level-box .level-3 .level-on {
+    width: 72% !important;
+}
+
 .dasboard .panel {
   background: hsla(225,14%,6%,0.3)!important;
 }
@@ -79,9 +112,9 @@ html::-webkit-scrollbar{display:none!important;}
 thead td {
   background: hsla(225,14%,6%,0.0)!important;
 }
-.zj-panel .G-password-bar .input{
+.zj-panel .G-password-bar .input {
   background: hsla(225,14%,6%,0.0)!important;
 }
-.G-form-table input[type=password]{
+.G-form-table input[type=password] {
   background: hsla(225,14%,6%,0.0)!important;
 }
