@@ -25,3 +25,15 @@ uninstall(){
     \cp -r /rom/www/turbo-static/turbo/v2/img/admin_web/bg.png /www/turbo-static/turbo/v2/img/admin_web/bg.png
     \cp -r /rom/usr/lib/lua/luci/view/admin_web/header.htm /usr/lib/lua/luci/view/admin_web/header.htm
 }
+
+case "$1" in
+    "install")
+        install;
+        exit 0;
+        ;;
+    "uninstall")
+        uninstall;
+        exit 0;
+        ;;
+              
+esac 
